@@ -5,6 +5,8 @@
 <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700|Open+Sans:400,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="evelyn.css">
 <script src="evelyn.py"></script>
+<script src="buttons.js"></script>
+<script src="notifications.js"></script>
 </head>
 <body>
 
@@ -26,10 +28,10 @@ If the result is bad, a good suggestion will appear.-->
 </div>
 
 <div id="search-form">
-  <form>
+  <form method="post" action="">
   <input id="search-box" type="text" placeholder="Begin typing here" autofocus="required"><br>
-  <input type="submit" value="Submit">
-  <input type="reset">
+  <button type="submit" value="Submit"> Submit </button>
+  <button type="reset"> Reset </button>
 </form>
 <div id="search-results">
   Results
@@ -50,8 +52,8 @@ If the result is bad, a good suggestion will appear.-->
   <input id="radio-box" type="checkbox" name="objects" value="Objects"> Objects<br>
   <input id="radio-box" type="checkbox" name="creatures" value="Creatures"> Creatures<br>
   <input id="radio-box" type="checkbox" name="places" value="Places"> Places<br>
-  <input type="submit" value="Submit">
-  <input type="reset">
+  <button type="submit" value="Submit"> Submit </button>
+  <button type="reset"> Reset </button>
 </form>
 </div>
 <div id="radio-results">
@@ -67,6 +69,25 @@ If the result is bad, a good suggestion will appear.-->
 Select the category your new list item falls into.
 Enter the new item (there may be rating and tagging options later on)-->
 <div class="zone2">
+
+<div id="add-header">
+  <h3 id="add-title">
+    Add new information
+  </h3>
+</div>
+<div id="add-form">
+  <form>
+    <input id="add-radio" type="checkbox" name="food" value="Food"> Food<br>
+    <input id="add-radio" type="checkbox" name="activities" value="Activities"> Activities<br>
+    <input id="add-radio" type="checkbox" name="people" value="People"> People<br>
+    <input id="add-radio" type="checkbox" name="objects" value="Objects"> Objects<br>
+    <input id="add-radio" type="checkbox" name="creatures" value="Creatures"> Creatures<br>
+    <input id="add-radio" type="checkbox" name="places" value="Places"> Places<br>
+  <input id="add-box" type="text" placeholder="Select category then type here"><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+  </form>
+</div>
 
 </div>
 <!--END ZONE 2-->
