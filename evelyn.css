@@ -55,6 +55,7 @@ p
   border-radius: 20px;
   width: 25%;
   height: 20px;
+  margin-bottom: 1%;
 }
 
 #search-results
@@ -82,6 +83,11 @@ p
   color: #F2F4F4;
   font-family: 'Exo 2', sans-serif;
   padding-left: 46.5%;
+}
+
+#radio-box
+{
+  margin-bottom: 1%;
 }
 
 #radio-results

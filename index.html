@@ -4,6 +4,7 @@
 <title>Evelyn</title>
 <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700|Open+Sans:400,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="evelyn.css">
+<script src="evelyn.py"></script>
 </head>
 <body>
 
@@ -26,7 +27,7 @@ If the result is bad, a good suggestion will appear.-->
 
 <div id="search-form">
   <form>
-  <input id="search-box" type="text"><br>
+  <input id="search-box" type="text" placeholder="Begin typing here" autofocus="required"><br>
   <input type="submit" value="Submit">
   <input type="reset">
 </form>
@@ -43,12 +44,12 @@ If the result is bad, a good suggestion will appear.-->
 
 <div id="radio-form">
   <form>
-  <input type="checkbox" name="food" value="Food"> Food<br>
-  <input type="checkbox" name="activities" value="Activities"> Activities<br>
-  <input type="checkbox" name="people" value="People"> People<br>
-  <input type="checkbox" name="objects" value="Objects"> Objects<br>
-  <input type="checkbox" name="creatures" value="Creatures"> Creatures<br>
-  <input type="checkbox" name="places" value="Places"> Places<br>
+  <input id="radio-box" type="checkbox" name="food" value="Food"> Food<br>
+  <input id="radio-box" type="checkbox" name="activities" value="Activities"> Activities<br>
+  <input id="radio-box" type="checkbox" name="people" value="People"> People<br>
+  <input id="radio-box" type="checkbox" name="objects" value="Objects"> Objects<br>
+  <input id="radio-box" type="checkbox" name="creatures" value="Creatures"> Creatures<br>
+  <input id="radio-box" type="checkbox" name="places" value="Places"> Places<br>
   <input type="submit" value="Submit">
   <input type="reset">
 </form>

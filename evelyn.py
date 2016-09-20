@@ -1,32 +1,25 @@
-#logic
+#Description
+#    Recieves html form inputs
+#    Queries Google Sheets
+#    Returns the results
 
+#lists
+categories = ["people", "places", "objects", "food", "creatures", "activities", "music"]
+good = []
+bad = []
 
-class Food:
-    def Good:
-        pass
-    def Bad:
-        pass
+#iterate through each category and grab the list items
+def categories_query():
+    return categories
 
-class Activities:
-    def Good:
-        pass
-    def Bad:
-        pass
+def good_query():
+    return good
 
-class People:
-    def Good:
-        pass
-    def Bad:
-        pass
+def bad_query():
+    return bad
 
-class Objects:
-    def Good:
-        pass
-    def Bad:
-        pass
+def search_query(search):
+    for i in good:
 
-class Creatures:
-    def Good:
-        pass
-    def Bad:
-        pass
+def radio_query(radio):
+    pass

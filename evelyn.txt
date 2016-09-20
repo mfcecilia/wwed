@@ -1,0 +1,4 @@
+Todo-list and Ideas
+
+Google sheets for database/backend
+Implement addition of new categories
