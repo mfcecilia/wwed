@@ -27,20 +27,30 @@ p
 .left-column
 {
   background-color: #19192A;
-  float: left;
-  height: 100vh;
-  width: 50%;
-  overflow: hidden;
+  height: 25%;
+  width: 100%;
 }
 
-#search
+#search-title
 {
   color: #F2F4F4;
-  text-align: left;
   font-family: 'Exo 2', sans-serif;
-  padding-left: 25%;
+  text-align: center;
   padding-top: 5%;
-  padding-bottom: 5%;
+}
+
+#search-form
+{
+  color: #F2F4F4;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+}
+
+#search-box
+{
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 20px;
 }
 
 #radio
@@ -51,16 +61,6 @@ p
   padding-left: 25%;
   padding-top: 5%;
   padding-bottom: 5%;
-}
-
-#search-header
-{
-  color: #F2F4F4;
-  font-family: 'Exo 2', sans-serif;
-  float: left;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-right: 5%;
 }
 
 #radio-header
@@ -77,9 +77,8 @@ p
 {
   background-color: #90132A;
   float: right;
-  height: 100vh;
-  width: 50%;
-  overflow: hidden;
+  height: 25%;
+  width: 100%;
 }
 
 #results
