@@ -1,0 +1,92 @@
+html
+{
+  background-color: #F2F4F4
+}
+
+h1
+{
+  color: #2F303D;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h3
+{
+  color: #2F303D;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+p
+{
+    color: #90132A;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left-column
+{
+  background-color: #19192A;
+  float: left;
+  height: 100vh;
+  width: 50%;
+  overflow: hidden;
+}
+
+#search
+{
+  color: #F2F4F4;
+  text-align: left;
+  font-family: 'Exo 2', sans-serif;
+  padding-left: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#radio
+{
+  color: #F2F4F4;
+  text-align: left;
+  font-family: 'Exo 2', sans-serif;
+  padding-left: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#search-header
+{
+  color: #F2F4F4;
+  font-family: 'Exo 2', sans-serif;
+  float: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
+#radio-header
+{
+  color: #F2F4F4;
+  font-family: 'Exo 2', sans-serif;
+  float: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
+.right-column
+{
+  background-color: #90132A;
+  float: right;
+  height: 100vh;
+  width: 50%;
+  overflow: hidden;
+}
+
+#results
+{
+  color: #F2F4F4;
+  font-family: 'Exo 2', sans-serif;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
