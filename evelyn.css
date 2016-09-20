@@ -24,7 +24,7 @@ p
     font-family: 'Open Sans', sans-serif;
 }
 
-.left-column
+.zone1
 {
   background-color: #19192A;
   height: 25%;
@@ -33,14 +33,16 @@ p
 
 #search-title
 {
+  background-color: #19192A;
   color: #F2F4F4;
   font-family: 'Exo 2', sans-serif;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 #search-form
 {
+  background-color: #19192A;
   color: #F2F4F4;
   font-family: 'Exo 2', sans-serif;
   text-align: center;
@@ -51,41 +53,52 @@ p
   text-align: center;
   font-family: 'Exo 2', sans-serif;
   border-radius: 20px;
+  width: 25%;
+  height: 20px;
 }
 
-#radio
+#search-results
 {
-  color: #F2F4F4;
-  text-align: left;
-  font-family: 'Exo 2', sans-serif;
-  padding-left: 25%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-#radio-header
-{
+  background-color: #19192A;
   color: #F2F4F4;
   font-family: 'Exo 2', sans-serif;
-  float: left;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-right: 5%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-.right-column
+#radio-title
+{
+  background-color: #19192A;
+  color: #F2F4F4;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#radio-form
+{
+  background-color: #19192A;
+  color: #F2F4F4;
+  font-family: 'Exo 2', sans-serif;
+  padding-left: 46.5%;
+}
+
+#radio-results
+{
+  background-color: #19192A;
+  color: #F2F4F4;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.zone2
 {
   background-color: #90132A;
   float: right;
   height: 25%;
   width: 100%;
-}
-
-#results
-{
-  color: #F2F4F4;
-  font-family: 'Exo 2', sans-serif;
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }

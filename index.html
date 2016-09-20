@@ -10,7 +10,13 @@
 <h1>Evelyn</h1>
 <h3>What Would Evelyn Do?</h3>
 
-<div class="left-column">
+
+
+<!--BEGIN ZONE 1-->
+<!--Use the search box to see if your idea is Evelyn approved.
+The result will appear beneath the search box, saying if it's good or bad.
+If the result is bad, a good suggestion will appear.-->
+<div class="zone1">
 
 <div id="search-header">
   <h3 id="search-title">
@@ -24,30 +30,45 @@
   <input type="submit" value="Submit">
   <input type="reset">
 </form>
+<div id="search-results">
+  Results
+</div>
 </div>
 
-<div id="radio">
-  <form>
-  <p id="radio-header">
+<div id="radio-header">
+  <h3 id="radio-title">
     Select
-  </p><br>
+  </h3>
+</div>
+
+<div id="radio-form">
+  <form>
   <input type="checkbox" name="food" value="Food"> Food<br>
   <input type="checkbox" name="activities" value="Activities"> Activities<br>
   <input type="checkbox" name="people" value="People"> People<br>
   <input type="checkbox" name="objects" value="Objects"> Objects<br>
   <input type="checkbox" name="creatures" value="Creatures"> Creatures<br>
+  <input type="checkbox" name="places" value="Places"> Places<br>
   <input type="submit" value="Submit">
   <input type="reset">
 </form>
 </div>
-
+<div id="radio-results">
+  Results
 </div>
 
-<div class="right-column">
-  <div id="results">
-    Results
-  </div>
 </div>
+<!--END ZONE 1-->
+
+
+<!--BEGIN ZONE 2-->
+<!--Add new items to the list as you learn more about Evelyn.
+Select the category your new list item falls into.
+Enter the new item (there may be rating and tagging options later on)-->
+<div class="zone2">
+
+</div>
+<!--END ZONE 2-->
 
 </body>
 </html>
